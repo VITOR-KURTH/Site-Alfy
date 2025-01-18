@@ -1,6 +1,7 @@
 import './App.css'
 import styles from './styles/styles.module.css'
 import Navbar from './components/Navbar/Navbar'
+import Carousel from './components/Carrousel/Carousel'
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           <h1 className={styles.TituloDescSobre}>
           Aulas e atividades que usam jogos e Inteligência Artificial para a alfabetização.
           </h1>
+          </div>
+          <div className={styles.CarouselContainer}>
+          <Carousel/>
           </div>
       </div>
     </>
